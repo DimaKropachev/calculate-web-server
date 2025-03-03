@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/static/styles.css" />
+		<title>Expressions</title>
+	</head>
+	<body>
+		<div id="all_expressions">
+			<h1>Expressions</h1>
+			<br />
+			<table>
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Value</th>
+						<th>Status</th>
+						<th>Result</th>
+						<th>Error</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{range .}}
+					<tr>
+						<td>{{.ID}}</td>
+						<td>{{.Value}}</td>
+						<td>{{.Status}}</td>
+						<td>{{.Result}}</td>
+						<td>{{.Error}}</td>
+					</tr>
+					{{end}}
+				</tbody>
+			</table>
+
+			<a href="/api/v1/input">Input expression</a>
+      <a href="/api/v1/find">Find expression</a>
+		</div>
+	</body>
+</html>

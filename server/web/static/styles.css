@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f4f4f4;
+	font-family: Arial, sans-serif;
+}
+
+#input_form {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 300px;
+}
+
+#input_form input[type='text'] {
+	width: 92%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#input_form label {
+	display: block;
+	margin-bottom: 8px;
+	color: #555;
+}
+
+#input_form button {
+	width: 100%;
+	padding: 10px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#input_form button:hover {
+	background-color: #0056b3;
+}
+
+#expression_id {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 300px;
+}
+
+#all_expressions {
+	text-align: center;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 500px;
+}
+
+#all_expressions table {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: Arial, sans-serif;
+	margin: 20px 0;
+}
+
+#all_expressions th,
+td {
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+#all_expressions th {
+	background-color: #f4f4f4;
+	font-weight: bold;
+	color: #333;
+}
+
+#all_expressions tr:hover {
+	background-color: #f9f9f9;
+}
+
+#find_expression {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 300px;
+}
+
+#find_expression .container {
+	align-items: center;
+	display: flex;
+	gap: 10px;
+}
+
+#find_expression label {
+	display: block;
+	margin-bottom: 8px;
+	color: #555;
+	text-align: center;
+}
+
+.container input[type='text'] {
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#find_expression button {
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	background-color: #007bff;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#find_expression button:hover {
+	background-color: #0056b3;
+}
