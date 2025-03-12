@@ -121,4 +121,4 @@
 
 ## Как связаться
 
-### [telegram](https://t.me/SKY_WaIker)
+### [telegram](https://t.me/skimnstr)
